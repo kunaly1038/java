@@ -18,6 +18,8 @@ public class Notes {
                 second = largest;
                 largest = arr[i];
             }
+            else if(arr[i] > second && arr[i]!=largest)
+                second = arr[i];
         }
         return second;
     } 
