@@ -10,7 +10,7 @@ class Linkedlist{
             next = null;
         }
     }
-    public void push(int new_data){
+    public void atBegin(int new_data){
         Node new_node = new Node(new_data);
         new_node.next = head;
         head = new_node;
@@ -24,11 +24,11 @@ class Linkedlist{
     }
     public static void main(String [] args){
         Linkedlist lk = new Linkedlist();
-        lk.push(3);
-        lk.push(5);
-        lk.push(4);
-        lk.push(3);
-        lk.push(2);
+        lk.atBegin(3);
+        lk.atBegin(5);
+        lk.atBegin(4);
+        lk.atBegin(3);
+        lk.atBegin(2);
         lk.printList();
     }
 }
