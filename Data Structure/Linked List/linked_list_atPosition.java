@@ -5,7 +5,7 @@ class Linkedlist{
        Node next;
       
     }
-    public void insertList(int data){
+    public void insertAtEnd(int data){
         Node node =new Node();
         node.data = data;
         if(head ==  null){
@@ -30,6 +30,9 @@ class Linkedlist{
         Node n;
         node.data = data;
         n = head;
+       if(index ==  0){
+            insertAtBegin(data);
+       }
         for(int i=0; i<index-1; i++){
             n = n.next;
         }
