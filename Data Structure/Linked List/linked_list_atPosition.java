@@ -33,11 +33,14 @@ class Linkedlist{
        if(index ==  0){
             insertAtBegin(data);
        }
+       else{
+          
         for(int i=0; i<index-1; i++){
             n = n.next;
         }
         node.next = n.next;
         n.next = node;
+       }
     }
     
     public void printList(){
