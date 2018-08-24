@@ -34,7 +34,7 @@ class Linkedlist{
         list.insertAtEnd(3);
         list.insertAtEnd(4);
         list.insertAtEnd(5);
-        list.insertAtEnd();
+        list.printList();
     }
     
 }
