@@ -5,7 +5,7 @@ class Linkedlist{
        Node next;
       
     }
-    public void insertList(int data){
+    public void insertAtEnd(int data){
         Node node =new Node();
         node.data = data;
         if(head ==  null){
@@ -29,12 +29,12 @@ class Linkedlist{
     }
     public static void main(String [] args){
         Linkedlist list = new Linkedlist();
-        list.insertList(1);
-        list.insertList(2);
-        list.insertList(3);
-        list.insertList(4);
-        list.insertList(5);
-        list.printList();
+        list.insertAtEnd(1);
+        list.insertAtEnd(2);
+        list.insertAtEnd(3);
+        list.insertAtEnd(4);
+        list.insertAtEnd(5);
+        list.insertAtEnd();
     }
     
 }
