@@ -7,20 +7,6 @@ class Linkedlist{
        Node next;
       
     }
-    public void insertList(int data){
-        Node node =new Node();
-        node.data = data;
-        if(head ==  null){
-            head = node;
-        }
-        else{
-            Node n = head;
-            while(n.next!=null){
-                n = n.next;
-            }
-            n.next = node;
-        }
-    }
     public void insertAtBegin(int data){
         Node node = new Node(); 
         node.data = data;
