@@ -6,7 +6,7 @@ public class StringReverse {
         String reverse = "";
         String [] split = s.split(" ");
         for(int i=split.length-1, j=0; i>0; i--, j++){
-            reverse = reverse + " "+ split[i];
+            reverse = reverse + split[i] + " ";
         }
         return reverse;
     }
