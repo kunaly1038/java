@@ -4,6 +4,7 @@ public class WordFrequency {
     static Scanner sc = new Scanner(System.in);
     
     static void wordFrequency(String s){
+        System.out.println("Enter the String :");
         String [] split = s.split(" ");
         int counter = 0;
         for(int i =0 ; i<split.length; i++){
