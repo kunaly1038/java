@@ -1,5 +1,5 @@
 //create node in java of binary search tree
-public class Queue{
+public class BinarySearchTree{
     class bst{
         int data;
         bst left, right;
